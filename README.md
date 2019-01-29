@@ -5,4 +5,4 @@ Scema con Kicad della termocoppia Max6675 collegato all'arduino.
 File excel con dati temperatura presi utilizzando Putty.
 
 ![]()
-![alt text](/img/circuits.png "Logo Title Text 1")
+![alt text](/img/circuit.png "Logo Title Text 1")
