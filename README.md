@@ -4,4 +4,4 @@ Esercizi rillevamento temperatura utilizzando la termocoppia Max6675.
 Scema con Kicad della termocoppia Max6675 collegato all'arduino.
 File excel con dati temperatura presi utilizzando Putty.
 
-![](/img/circuits.img)
+![](/img/circuits.png)
