@@ -13,4 +13,4 @@ Esercitazione del 31/01/19
 Programma arduino per rillevamento Temperatura con sensore DHT11 e termocoppia Max6675 e accensione di un led ad ogni rillevamento.
 Schema elettrico con Kicad
 
-![alt text](/img2/circuit2.png "Secondo schema")
+![alt text](/img2/Circuit2.png "Secondo schema")
