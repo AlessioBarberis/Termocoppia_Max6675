@@ -1,5 +1,3 @@
-// this example is public domain. enjoy!
-// www.ladyada.net/learn/sensors/thermocouple
 int ledPin = 12;
 
 #include "max6675.h"
@@ -17,7 +15,7 @@ int vccPin = 3;
 int gndPin = 2;
 
 unsigned long old_millis = 0;
-unsigned long delta = 6000;       //oppure 60000 per ricevere un dato ogni minuto;
+unsigned long delta = 6000;       //60000 per ricevere un dato ogni minuto;
 int minuti = 1;
 
 void setup() {
@@ -36,7 +34,7 @@ void setup() {
 }
 
 void loop() {
-  // basic readout test, just print the current temp
+ 
   delay(2000);  //2 secondi prima che inizi il programma
 
   unsigned long now = millis();
@@ -50,9 +48,9 @@ void loop() {
     Serial.print(minuti);
     Serial.print(", Temp Max6675: ");
     Serial.print(thermocouple.readCelsius());
-    Serial.print(F(", Temperature DHT11: "));         //sensore umidità
-    Serial.print(t);                                  //sensore umidità
-    Serial.println(F("°C "));                         //sensore umidità
+    Serial.print(F(", Temperature DHT11: "));         //humidity sensor
+    Serial.print(t);                                  //humidity sensor
+    Serial.println(F("°C "));                         //humidity sensor
     old_millis = now;
     minuti = minuti + 1;
 
