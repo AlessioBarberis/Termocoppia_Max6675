@@ -14,3 +14,10 @@ Programma arduino per rillevamento Temperatura con sensore DHT11 e termocoppia M
 Schema elettrico con Kicad
 
 ![alt text](/img2/Circuit2.png "Secondo schema")
+
+
+Esercitazione del 04/02/19
+Acquisizione dati temperatura tramite Termocoppia Max6675 e DHT11. La scheda arduino acquisisce i dati solo una volta ogni volta che premo il pulsante. Ad ogni rillevamento si accende il led.
+All'interno del programma abbiamo usato un Debounce per usare il pulsante.
+
+![alt text](/img3/Circuits 3.png "Terzo schema")
